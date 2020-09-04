@@ -66,10 +66,43 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Header Start */
+
+header nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.lambda-logo {
+    width: 20%;
+}
+
+.nav-links {
+    width: 70%;
+}
+
+.nav-links a {
+    display: inline-block;
+    margin-right: 10%;
+    color: black;
+}
+
+.hero-img {
+    margin: 4% 0;
+}
+
+/* Header End */
 
 .top-content {
     display: flex;
@@ -104,13 +137,65 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Box Colors Start */
+
+.one-color {
+    background: teal;
+    order: 10;
+}
+
+.two-color {
+    background: gold;
+    order: 9;
+}
+
+.three-color {
+    background: cadetblue;
+    order: 8;
+}
+
+.four-color {
+    background: coral;
+    order: 7;
+}
+
+.five-color {
+    background: crimson;
+    order: 6;
+}
+
+.six-color {
+    background: forestgreen;
+    order: 5;
+}
+
+.seven-color {
+    background: darkorchid;
+    order: 4;
+}
+
+.eight-color {
+    background: hotpink;
+    order: 3;
+}
+
+.nine-color {
+    background: indigo;
+    order: 2;
+}
+
+.ten-color {
+    background: dodgerblue;
+}
+
+/* Box Color End */
 
 .bottom-content {
     display: flex;
@@ -144,3 +229,57 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Top Text Start */
+
+.about-text-container {
+    border-bottom: black dotted 2px;
+    margin-bottom: 5%;
+}
+
+.about-text-container h2 {
+    padding: 0 2%;
+}
+
+.about-text-container p {
+    padding: 0 2%;
+    padding-bottom: 3%;
+}
+
+/* About Top Text end */
+
+/* About Content Start */
+
+.about-content-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content-container h2, p, a {
+    margin: 2% 0;
+}
+
+.about-content {
+    width: 45%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    border-bottom: black dotted 2px;
+}
+
+.about-content a {
+    display: inline-block;
+    border: black solid 2px;
+    color: black;
+    padding: 2% 5%;
+    border-radius: .5rem;
+}
+
+/* About Content End */
+
+/* Bottom Section Text Start */
+
+.bottom-sect-text {
+    padding: 3%;
+}
+
+/* Bottom Section Text End */
